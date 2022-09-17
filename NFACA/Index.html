@@ -5,11 +5,10 @@
     <title>NFACA</title>
     <script src="https://kit.fontawesome.com/9422f6cb9b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link href="../Content/Index.css" rel="stylesheet" />
+    <link href="Content/Index.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="icon" href="../Images/NFACA_Logo.jpg" />
-    <script src="../Scripts/Navigation.js"></script>
+    <link rel="icon" href="Images/NFACA_Logo.jpg" />
 </head>
 <body class="row" id="top">
     <div class="col col-2">
@@ -68,7 +67,7 @@
                     <hr />
                     <div class="parallax-split row p-4">
                         <div class="col col-4 align-content-center">
-                            <img class="img-fluid" src="../Images/NFACA_Logo.jpg" />
+                            <img class="img-fluid" src="Images/NFACA_Logo.jpg" />
                         </div>
 
                         <div class="col col-8 ">
@@ -188,22 +187,117 @@
                         </div>
                     </div>
                 </div>
+            </div>
             <div class="parallax2"></div>
         </div>
         <div class="Directory" id="_directory" style="display:none">
-
+            <h1>Directory</h1>
+            <div class="table-responsive-lg">
+                <table id="directoryTable">
+                    <tr>
+                        <th onclick="sortTable(0)">LastName</th>
+                        <th onclick="sortTable(1)">FirstName</th>
+                        <th onclick="sortTable(2)">Phone</th>
+                        <th onclick="sortTable(3)">Email</th>
+                        <th onclick="sortTable(4)">Address</th>
+                        <th onclick="sortTable(5)">Business</th>
+                    </tr>
+                    <tr>
+                        <td>Kepich</td>
+                        <td>Nick</td>
+                        <td>(330) 872-4032</td>
+                        <td></td>
+                        <td>119 Ridge Rd. STE C</td>
+                        <td>Sub Stop</td>
+                    </tr>
+                    <tr>
+                        <td>McClain</td>
+                        <td>Katie</td>
+                        <td>(330) 974-0052</td>
+                        <td>katie@hostetlerinsurancegroup.com</td>
+                        <td>2010 Milton Blvd. STE C</td>
+                        <td>Hostetler Insurance Group</td>
+                    </tr>
+                    <tr>
+                        <td>Gray</td>
+                        <td>Chris</td>
+                        <td>(330) 554-9989</td>
+                        <td>c90gray@gmail.com</td>
+                        <td>221 Greenbriar Dr. (Aurora OH)</td>
+                        <td>Grayt Solutions</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div class="Forms" id="_forms" style="display:none">
-
+            <h1>Forms</h1>
+            <small>Click on a form to download and print!</small>
         </div>
         <div class="Enroll" id="_enroll" style="display:none">
-
+            <h1>Enrollment Information:</h1>
+            <h5><strong>Types of Membership</strong></h5>
+            <p>The association is open to all businesses (and individuals)</p>
+            <p>(A) Voting Member. Voting members consists of Newton Falls area businesses and organizations and Associate members, which support the community and local area businesses and commercial growth. Voting members shall designate one of the individuals associated with its business or organization to act as spokesperson for the member and to vote on matters coming before the membership.</p>
+            <p>
+                (B) Associate Member. Associate members consist of businesses and organizations, which support the community and local area businesses and commercial growth but do not have a place of business or offices within the geographic area of The Association. Associate members are voting members. Outside the geographic area is 20 miles from the middle of Broad Street and Canal Street, Newton Falls, Trumbull Country, Ohio.
+            </p>
+            <p>
+                (C) Individual Members. Individual members consist of individual interested in supporting the community and local area businesses and the commercial growth of the geographic area. Individual members are voting members.
+            </p>
+            <p>
+                (D) Publicly Funded Members. Public funded membership consists of an organization whose membership is voted on and approved by the Board of Directors. Public funded members have voting rights.
+            </p>
+            <p>
+                (E) Honorary Members. Honorary members consist of individuals whose membership is voted upon and approved by the Board of Directors. Honorary members are non-voting members.
+            </p>
+            <br />
+            <h5><strong>Fee Schedule</strong></h5>
+            <ul>
+                <li>
+                    Membership within 20 mile geographic area - voting member - $60.00
+                </li>
+                <li>
+                    Associate members (outside geographic area) - non-voting member - $70.00
+                </li>
+                <li>
+                    Individual Members - voting - $60.00
+                </li>
+                <li>
+                    Public Funded Member - voting member - No charge.
+                </li>
+            </ul>
+            <br />
+            <h5><strong>To be accepted as a member</strong></h5>
+            <p>
+                (A) Any business (or individual) wanting to join the NFACA shall fill out an application which shall include the documentation to establish the business as a legal entity in the State in which it does business.
+            </p>
+            <p>
+                (B) Will be invoiced after membership approval.
+            </p>
+            <p>
+                (C) After treasurer and other needed officers establish that applying business meets the NFACA requirements, bring the application to the membership for approval.
+            </p>
+            <p>
+                (D) After membership approval, have new business attend following meeting to welcome them.
+            </p>
+            <p>
+                (E) All current members need to establish documentation as a legal business in appropriate State of doing business
+            </p>
         </div>
         <div class="Events" id="_events" style="display:none">
-
+            <h1>Upcoming Events</h1>
+            <img class="img-fluid" src="Images/Events.png" />
         </div>
         <div class="Gallery" id="_gallery" style="display:none">
+            <h1>Photo Gallery</h1>
 
+            <div class="gallery-wrap">
+                <div class="item item-1"></div>
+                <div class="item item-2"></div>
+                <div class="item item-3"></div>
+                <div class="item item-4"></div>
+                <div class="item item-5"></div>
+            </div>
         </div>
         <footer>
             <hr />
@@ -240,6 +334,61 @@
 
         if (!nav.hasClass('collapsed')) {
             nav.click();
+        }
+    }
+
+    function sortTable(n) {
+        var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+        table = document.getElementById("directoryTable");
+        switching = true;
+        //Set the sorting direction to ascending:
+        dir = "asc";
+        /*Make a loop that will continue until
+        no switching has been done:*/
+        while (switching) {
+            //start by saying: no switching is done:
+            switching = false;
+            rows = table.rows;
+            /*Loop through all table rows (except the
+            first, which contains table headers):*/
+            for (i = 1; i < (rows.length - 1); i++) {
+                //start by saying there should be no switching:
+                shouldSwitch = false;
+                /*Get the two elements you want to compare,
+                one from current row and one from the next:*/
+                x = rows[i].getElementsByTagName("TD")[n];
+                y = rows[i + 1].getElementsByTagName("TD")[n];
+                /*check if the two rows should switch place,
+                based on the direction, asc or desc:*/
+                if (dir === "asc") {
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        //if so, mark as a switch and break the loop:
+                        shouldSwitch = true;
+                        break;
+                    }
+                } else if (dir === "desc") {
+                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                        //if so, mark as a switch and break the loop:
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+            }
+            if (shouldSwitch) {
+                /*If a switch has been marked, make the switch
+                and mark that a switch has been done:*/
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+                //Each time a switch is done, increase this count by 1:
+                switchcount++;
+            } else {
+                /*If no switching has been done AND the direction is "asc",
+                set the direction to "desc" and run the while loop again.*/
+                if (switchcount === 0 && dir === "asc") {
+                    dir = "desc";
+                    switching = true;
+                }
+            }
         }
     }
 
